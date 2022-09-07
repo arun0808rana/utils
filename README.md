@@ -1,4 +1,5 @@
 # Utils
+`keybindings.json` is located in `~/.config/Code/User`
 
   ```javascript
   // VSCODE ON COKE
