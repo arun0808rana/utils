@@ -6,7 +6,7 @@
 
 // Place your key bindings in this file to overwrite the defaults
 // ALT + I/J/K/L: up/left/down/right
-// ALT + I/J/K/L: auto suggestion selection similar to arrow keys
+// CTRL + ALT + I/K: auto suggestion selection similar to arrow keys
 // ALT + SHIFT + I/J/K/L: mark text up/left/down/right
 // CTRL + J/L: send cursor to start/end of line
 // CTRL + ALT + J/L: send cursor to start/end of word
@@ -21,12 +21,12 @@
 
 [
   {
-    "key": "alt+i",
+    "key": "ctrl+alt+i",
     "command": "selectPrevSuggestion",
     "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
   },
   {
-    "key": "alt+j",
+    "key": "ctrl+alt+k",
     "command": "selectNextSuggestion",
     "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
   },
