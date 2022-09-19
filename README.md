@@ -1,7 +1,10 @@
 # Utils
-https://github.com/arun0808rana/git-cloner  
-https://github.com/arun0808rana/vs-code-bindings  
-https://github.com/arun0808rana/Google-Navigator  
-https://github.com/arun0808rana/yellow-functions  
-https://github.com/arun0808rana/personal_servers  
-https://github.com/airbnb/javascript
+
+| Name   |URL      |Type |
+|----------|-------------|-------------|
+| Git Cloner|https://github.com/arun0808rana/git-cloner  | Server + Script |
+| VS Code Bindings|https://github.com/arun0808rana/vs-code-bindings   | VS Code |
+| Google Search Navigator|https://github.com/arun0808rana/Google-Navigator | Script |
+| Yellow Functions|https://github.com/arun0808rana/yellow-functions | VS Code Theme |
+| Personal Servers|https://github.com/arun0808rana/personal_servers | Server |
+| AirBnb Guidelines|https://github.com/airbnb/javascript | Repo |
