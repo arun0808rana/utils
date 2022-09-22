@@ -27,3 +27,6 @@
 
 #### [tokyo-night](https://marketplace.visualstudio.com/items?itemName=Avetis.tokyo-night)
 ![image](https://user-images.githubusercontent.com/68982541/191869570-36fca641-46e4-4cea-b771-9b7c5a0c97fc.png)
+
+#### [Ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu)
+![image](https://user-images.githubusercontent.com/68982541/191870824-63c2f48c-a9a9-4233-87fa-ca4621445957.png)
