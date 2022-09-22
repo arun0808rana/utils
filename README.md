@@ -13,4 +13,5 @@
 
 ### Themes
 
+#### Blueberry Dark Theme
 ![image](https://user-images.githubusercontent.com/68982541/191867775-1b05575e-baf2-4de4-a23d-e54fc669c648.png)
