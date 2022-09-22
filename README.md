@@ -18,3 +18,12 @@
 
 #### [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
 ![image](https://user-images.githubusercontent.com/68982541/191868732-1f45ae28-c06d-49a5-832a-c36772ef3d9e.png)
+
+#### [Tokyo Night Horizon](https://marketplace.visualstudio.com/items?itemName=eternal.tokyo-night-horizon)
+![image](https://user-images.githubusercontent.com/68982541/191869322-c52beb89-10de-4048-b647-461011a4f26c.png)
+
+#### [Tokyo Night Frameless](https://marketplace.visualstudio.com/items?itemName=MagdalenaLipka.tokyo-night-frameless)
+![image](https://user-images.githubusercontent.com/68982541/191869429-591123c0-88e0-47f3-83bc-f5d100fae7fc.png)
+
+#### [tokyo-night](https://marketplace.visualstudio.com/items?itemName=Avetis.tokyo-night)
+![image](https://user-images.githubusercontent.com/68982541/191869570-36fca641-46e4-4cea-b771-9b7c5a0c97fc.png)
