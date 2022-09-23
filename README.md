@@ -13,6 +13,7 @@
 
 ### Components
 |Name| URL|
+|----------|-------------|
 |Slider| https://codepen.io/tuesta/pen/QoMqBY|
 
 ### Themes
