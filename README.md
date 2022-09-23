@@ -14,7 +14,7 @@
 ### Themes
 
 #### [Blueberry Dark Theme](https://marketplace.visualstudio.com/items?itemName=peymanslh.blueberry-dark-theme)
-![image](https://user-images.githubusercontent.com/68982541/191867775-1b05575e-baf2-4de4-a23d-e54fc669c648.png)
+![image](https://user-images.githubusercontent.com/68982541/191875132-e79d8617-bc4b-4ca2-a0ed-3b1678830da2.png)
 
 #### [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
 ![image](https://user-images.githubusercontent.com/68982541/191868732-1f45ae28-c06d-49a5-832a-c36772ef3d9e.png)
