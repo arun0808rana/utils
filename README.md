@@ -11,6 +11,10 @@
 | Post Format Instructions| https://github.com/arun0808rana/post_format_instructions | Nodejs Script |
 
 
+### Components
+|Name| URL|
+|Slider| https://codepen.io/tuesta/pen/QoMqBY|
+
 ### Themes
 
 #### [Blueberry Dark Theme](https://marketplace.visualstudio.com/items?itemName=peymanslh.blueberry-dark-theme)
