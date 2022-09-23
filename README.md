@@ -8,7 +8,7 @@
 | Yellow Functions|https://github.com/arun0808rana/yellow-functions | VS Code Theme |
 | Personal Servers|https://github.com/arun0808rana/personal_servers | Server |
 | AirBnb Guidelines|https://github.com/airbnb/javascript | Repo |
-| Blueberry Dark Theme|https://marketplace.visualstudio.com/items?itemName=peymanslh.blueberry-dark-theme | VS Code Theme |
+| Post Format Instructions| https://github.com/arun0808rana/post_format_instructions | Nodejs Script |
 
 
 ### Themes
