@@ -22,6 +22,20 @@ Concurrent downloads via external client.
 youtube-dl -f 140 --restrict-filenames --external-downloader aria2c --external-downloader-args "-c -j 16 -s 16 -x 16 -k 1M" -ciw "___________________________________"
 ```
 
+###bashrc stupidity
+```bash
+# aliases list
+# after pasting this shit enter . ~/.bashrc
+# in terminal
+alias 'gito'='gh repo create "${PWD##*/}" --public --source=. --remote=origin && git add . && git commit -m "init" && git branch -M main && git push -u origin main'	
+
+function open() {
+    #do things with parameters like $1 such
+    codedirpath=/home/dev/Desktop/pro/"$1"
+    code $codedirpath
+}
+```
+
 ### Themes
 
 #### [Blueberry Dark Theme](https://marketplace.visualstudio.com/items?itemName=peymanslh.blueberry-dark-theme)
