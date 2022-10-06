@@ -44,6 +44,9 @@ function clone(){
 
 ### Themes
 
+<details>
+  <summary>VS Code</summary>
+  
 #### [Blueberry Dark Theme](https://marketplace.visualstudio.com/items?itemName=peymanslh.blueberry-dark-theme)
 ![image](https://user-images.githubusercontent.com/68982541/191875132-e79d8617-bc4b-4ca2-a0ed-3b1678830da2.png)
 
@@ -61,3 +64,8 @@ function clone(){
 
 #### [Ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu)
 ![image](https://user-images.githubusercontent.com/68982541/191870824-63c2f48c-a9a9-4233-87fa-ca4621445957.png)
+	
+</details>
+
+
+
