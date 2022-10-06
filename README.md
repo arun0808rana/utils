@@ -48,10 +48,10 @@ function clone(){
 
 
 
-### Themes
+
 
 <details>
-  <summary><h3>VS Code</h3></summary>
+  <summary><h3>VS Code Themes</h3></summary>
   
 #### [Blueberry Dark Theme](https://marketplace.visualstudio.com/items?itemName=peymanslh.blueberry-dark-theme)
 ![image](https://user-images.githubusercontent.com/68982541/191875132-e79d8617-bc4b-4ca2-a0ed-3b1678830da2.png)
