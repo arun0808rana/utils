@@ -16,6 +16,12 @@
 |----------|-------------|
 |Slider| https://codepen.io/tuesta/pen/QoMqBY|
 
+### Youtube-dl Aria2c
+Concurrent downloads via external client.
+```bash
+youtube-dl -f 140 --restrict-filenames --external-downloader aria2c --external-downloader-args "-c -j 16 -s 16 -x 16 -k 1M" -ciw "___________________________________"
+```
+
 ### Themes
 
 #### [Blueberry Dark Theme](https://marketplace.visualstudio.com/items?itemName=peymanslh.blueberry-dark-theme)
