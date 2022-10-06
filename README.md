@@ -22,7 +22,7 @@ Concurrent downloads via external client.
 youtube-dl -f 140 --restrict-filenames --external-downloader aria2c --external-downloader-args "-c -j 16 -s 16 -x 16 -k 1M" -ciw "___________________________________"
 ```
 
-###bashrc stupidity
+### bashrc stupidity
 ```bash
 # aliases list
 # after pasting this shit enter . ~/.bashrc
