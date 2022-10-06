@@ -46,10 +46,6 @@ function clone(){
 ```
 </details>
 
-
-
-
-
 <details>
   <summary><h3>VS Code Themes</h3></summary>
   
