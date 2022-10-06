@@ -34,6 +34,11 @@ function open() {
     codedirpath=/home/dev/Desktop/pro/"$1"
     code $codedirpath
 }
+
+function clone(){
+	clonePath=/home/dev/Desktop/pro/clones
+	git -C /$clonePath clone $1
+}
 ```
 
 ### Themes
