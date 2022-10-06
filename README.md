@@ -18,7 +18,7 @@
 |Slider| https://codepen.io/tuesta/pen/QoMqBY|
 
 <details>
-  <summary>### Bash Bash Bash</summary>
+  <summary><h2> Bash Bash Bash</h2></summary>
   
 ### Youtube-dl Aria2c
 Concurrent downloads via external client.
