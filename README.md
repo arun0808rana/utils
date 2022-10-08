@@ -41,7 +41,13 @@ function open() {
 
 function clone(){
 	clonePath=/home/dev/Desktop/pro/clones
+	#extracting repo name from git url
+	basename=$(basename $1)
+	repoName=${basename%.*}
+	cdingPath=$clonePath/$repoName
+	
 	git -C /$clonePath clone $1
+	cd $cdingPath
 }
 ```
 </details>
