@@ -3,6 +3,7 @@
 | Name   |URL      |Type |
 |----------|-------------|-------------|
 | Git Cloner|https://github.com/arun0808rana/git-cloner  | Server + Script |
+| Ubuntu-pkgs|https://github.com/arun0808rana/ubuntu-pkgs  | Server |
 | VS Code Bindings|https://github.com/arun0808rana/vs-code-bindings   | VS Code |
 | Google Search Navigator|https://github.com/arun0808rana/Google-Navigator | ViolentMonkey Script |
 | Youtube Navigator|https://github.com/arun0808rana/Youtube-Navigator | ViolentMonkey Script |
