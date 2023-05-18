@@ -44,7 +44,7 @@ package_url=$(curl -sL https://api.github.com/repos/owner/repo/releases/latest |
 You can download the deb version of the gh cli using curl. Notice this downloads the amd64 version specifically. Replace amd64 with your architecture name. But make sure it is provided by gh assets.
 	
 ```bash
-package_url=$(curl -sL https://api.github.com/repos/cli/cli/releases/latest | grep -oP '(?<="browser_download_url": ")[^"]*' | grep "amd64\.deb" | sed 's/\&amp;/\&/g') && curl -LO "$package_url"
+package_url=$(curl -sL https://api.github.com/repos/cli/cli/releases/latest | grep -oP '(?<="browser_download_url": ")[^"]*' | grep "amd64\.deb" | sed 's/\&amp;/\&/g') && curl -LO "$package_url" && sudo dpkg -i "$(basename "$package_url")"
 ```  
 	
 OR
