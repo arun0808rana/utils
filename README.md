@@ -29,13 +29,14 @@ youtube-dl -f 140 --restrict-filenames --external-downloader aria2c --external-d
 
 ### bashrc stupidity
 	
-You can download the deb version of the gh cli using curl
+You can download the deb version of the gh cli using curl. Notice this downloads the amd64 version specifically. Replace amd64 with your architecture name. But make sure it is provided by gh assets.
 	
 ```bash
-	package_url=$(curl -sL https://api.github.com/repos/owner/repo/releases/latest | grep -oP '(?<="browser_download_url": ")[^"]*' | grep "linux_amd64\.deb" | sed 's/\&amp;/\&/g') curl -LO "$package_url"
+	package_url=$(curl -sL https://api.github.com/repos/cli/cli/releases/latest | grep -oP '(?<="browser_download_url": ")[^"]*' | grep "amd64\.deb" | sed 's/\&amp;/\&/g') curl -LO "$package_url"
 ```
+		or
 		
-Download `gh` cli from <a href="https://github.com/cli/cli/releases">gh cli</a>
+Download `gh` cli from <a href="https://github.com/cli/cli/releases">gh cli assets</a>
 
 Below `gito` alias creates a remote repo and pushes main to remote on gihtub.
 	
