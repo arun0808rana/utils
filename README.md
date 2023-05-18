@@ -28,6 +28,19 @@ youtube-dl -f 140 --restrict-filenames --external-downloader aria2c --external-d
 ```
 
 ### bashrc stupidity
+	
+You can download the deb version of the gh cli using curl
+	
+```bash
+	package_url=$(curl -sL https://api.github.com/repos/owner/repo/releases/latest | grep -oP '(?<="browser_download_url": ")[^"]*' | grep "linux_amd64\.deb" | sed 's/\&amp;/\&/g') curl -LO "$package_url"
+```
+		
+Download `gh` cli from <a href="https://github.com/cli/cli/releases">gh cli</a>
+
+Below `gito` alias creates a remote repo and pushes main to remote on gihtub.
+	
+You need authorization although. gh cli will do this for you.
+	
 ```bash
 # aliases list
 # after pasting this shit enter . ~/.bashrc
