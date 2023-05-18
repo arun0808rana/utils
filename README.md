@@ -27,14 +27,27 @@ Concurrent downloads via external client.
 youtube-dl -f 140 --restrict-filenames --external-downloader aria2c --external-downloader-args "-c -j 16 -s 16 -x 16 -k 1M" -ciw "___________________________________"
 ```
 
+### Github asset downloader using bash
+
+This command assigns the URL to the package_url variable using command substitution, similar to the previous command. Then, it uses curl with the -LO options to download the file specified by the URL.
+
+Make sure to replace https://api.github.com/repos/owner/repo/releases/latest with the actual API URL for the GitHub release assets. Additionally, ensure that the pattern "linux_amd64\.deb" matches the desired .deb file you want to download.
+
+Upon executing this command, the .deb package file will be downloaded to the current directory using curl.
+
+```bash
+package_url=$(curl -sL https://api.github.com/repos/owner/repo/releases/latest | grep -oP '(?<="browser_download_url": ")[^"]*' | grep "linux_amd64\.deb" | sed 's/\&amp;/\&/g') && curl -LO "$package_url"
+```
+
 ### bashrc stupidity
 	
 You can download the deb version of the gh cli using curl. Notice this downloads the amd64 version specifically. Replace amd64 with your architecture name. But make sure it is provided by gh assets.
 	
 ```bash
-	package_url=$(curl -sL https://api.github.com/repos/cli/cli/releases/latest | grep -oP '(?<="browser_download_url": ")[^"]*' | grep "amd64\.deb" | sed 's/\&amp;/\&/g') curl -LO "$package_url"
-```
-		or
+package_url=$(curl -sL https://api.github.com/repos/cli/cli/releases/latest | grep -oP '(?<="browser_download_url": ")[^"]*' | grep "amd64\.deb" | sed 's/\&amp;/\&/g') && curl -LO "$package_url"
+```  
+	
+OR
 		
 Download `gh` cli from <a href="https://github.com/cli/cli/releases">gh cli assets</a>
 
